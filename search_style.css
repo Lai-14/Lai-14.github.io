@@ -1,0 +1,181 @@
+/* 背景 */
+#map {
+    position: absolute;
+    width: 1280px;
+    height: 577px;
+    left: -2px;
+    top: 0px;
+}
+
+/* 最上面 */
+#desktop {
+    background-color: #FED801;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1280px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+}
+
+/* logo */
+#logo img{
+    position: absolute;
+    width: 225px;
+    height: 43px;
+    left: 80px;
+    top: 15px;    
+}
+
+/* 租車還車 */
+#rent_and_return {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    width: 276px;
+    height: 42px;
+    left: 490px;
+    top: 15px;
+    cursor: pointer;    /* 碰到東西變成小手 */ 
+}
+
+/* 顯示車道 */
+#show_lane {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    background-color: black;  
+    position: absolute;
+    border-radius: 100px;
+    width: 105px;
+    height: 31px;
+    left: 1090px;
+    top: 23px; 
+    text-align: center;
+}
+.text {
+    color:white;
+    font-size: 13px; 
+}
+.circle { 
+    background-color: white;
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;    /* 碰到東西變成小手 */  
+}
+
+/* 搜尋框 */
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 451px;
+    left: 377px;
+    top: 100px;
+}
+.size {
+    height: 40px;
+    width: 451px;
+    font-size: 16px;
+    border-radius: 8px;
+
+}
+
+/* 搜尋用圖片 */
+#search_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+    left: 834px;
+    top: 100px;
+}
+.button {
+    position: absolute;
+    border-radius: 8px;
+    border-color: black;
+    height: 40px;
+    width: 40px; 
+    top: 0px;     
+}
+.button_img {
+    position: absolute;
+    height: 44px;
+    width: 43px;
+    left: -4px;
+    top: -2px;  
+    cursor: pointer;    /* 碰到東西變成小手 */    
+}
+
+/* GPS */
+#GPS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    position: absolute;
+    border-radius: 100%;
+    width: 62px;
+    height: 62px;
+    left: 1131px;
+    top: 485px;
+    cursor: pointer;    /* 碰到 button 變成小手 */  
+}
+
+/*-----------------------*/
+
+/* 尚未選擇任何縣市 */
+#text_other {
+    position: absolute;
+    width: 136px;
+    height: 25px;
+    left: 89px;
+    top: 110px;
+    font-size: 17px;
+    color: #7A7A7A;
+    font-weight: bold;  /* 字體加粗 */
+}
+
+/* 下拉式選單 */
+#list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    border-radius: 31px;
+    border-color: black;
+    width: 143px;
+    height: 31px;
+    left: 1049px;
+    top: 25px;
+}
+#list_size {
+    position: absolute;
+    border-radius: 31px;
+    border-color: black;
+    width: 143px;
+    height: 31px;
+    left: 0px;
+    top: 0px;
+}
+.list_style {
+    background-color: black;
+    color: white;
+    font-weight: bold;  /* 字體加粗 */
+}
